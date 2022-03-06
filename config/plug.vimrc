@@ -8,11 +8,13 @@ call plug#begin()
 "   - Avoid using standard Vim directory names like 'plugin'
 
 Plug 'itchyny/lightline.vim'
-Plug 'ludovicchabant/vim-gutentags'
-Plug 'dense-analysis/ale'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'Yggdroot/LeaderF'
 Plug 'Shougo/echodoc.vim'
+Plug 'ycm-core/YouCompleteMe'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'preservim/nerdtree'
+Plug 'skywind3000/gutentags_plus'
 
 " Initialize plugin system
 call plug#end()
