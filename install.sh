@@ -8,12 +8,13 @@ cp -r ./colors ~/.vim/
 cp -r ./plugin ~/.vim/
 
 config_file=".vimrc"
-config_list=$(find ./config -type f -print | xargs)
 
 cat /dev/null > $config_file
-for i in ${config_list[@]}
+path="config"
+files=$(ls $path)
+for filename in $files
 do
-	echo "source $i" >> $config_file
+	echo "source ~/.vim/config/$filename" >> $config_file
 done
 
 cp ~/.vimrc ./vimrc_bk
