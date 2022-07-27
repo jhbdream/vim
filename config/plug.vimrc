@@ -11,10 +11,19 @@ Plug 'itchyny/lightline.vim'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'Yggdroot/LeaderF'
 Plug 'Shougo/echodoc.vim'
-Plug 'ycm-core/YouCompleteMe'
-Plug 'ludovicchabant/vim-gutentags'
 Plug 'preservim/nerdtree'
-Plug 'skywind3000/gutentags_plus'
+Plug 'tpope/vim-unimpaired'
+Plug 'mengelbrecht/lightline-bufferline'
+Plug 'luochen1990/rainbow'
+Plug 'sheerun/vim-polyglot'
+
+" vim lsp
+Plug 'prabirshrestha/vim-lsp'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+
+Plug 'skywind3000/asyncrun.vim'
 
 " Initialize plugin system
 call plug#end()
